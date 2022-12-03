@@ -44,24 +44,24 @@ public class Seller implements Serializable {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmail(String email) {
+        return this.email;
     }
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public Date getBirthDate() {
-        return birthDate;
+    public Date getBirthDate(java.sql.Date birthDate) {
+        return this.birthDate;
     }
 
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
 
-    public Double getBaseSalary() {
-        return baseSalary;
+    public Double getBaseSalary(double baseSalary) {
+        return this.baseSalary;
     }
 
     public void setBaseSalary(Double baseSalary) {
